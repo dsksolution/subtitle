@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtitle Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Subtitle Translator</h1>
+    <form id="translator-form">
+        <label for="file">Upload SRT File:</label>
+        <input type="file" id="file" accept=".srt" required><br><br>
+
+        <label for="language">Target Language:</label>
+        <input type="text" id="language" placeholder="e.g., Spanish" required><br><br>
+
+        <button type="submit">Translate</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
